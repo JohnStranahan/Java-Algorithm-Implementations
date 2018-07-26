@@ -1,14 +1,20 @@
 //The following is a program that explores different methods to get the nth Fibonacci number.
 
+//Recursive time complexity is O(2^n)	(exponential)
+
+//Iterative time complexity is O(n) 	(linear)
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Fibonacci {
 
+	BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
-		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
+		
 		
 			System.out.println("Welcome To the Fibonacci Calculator");
 			System.out.println("Please Enter a Postive Integer greater than or equal to 0:");
