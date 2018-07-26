@@ -13,8 +13,6 @@ public class Fibonacci {
 	BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-
-		
 		
 			System.out.println("Welcome To the Fibonacci Calculator");
 			System.out.println("Please Enter a Postive Integer greater than or equal to 0:");
