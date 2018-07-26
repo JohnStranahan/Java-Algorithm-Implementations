@@ -61,14 +61,12 @@ public class Fibonacci {
 		int first = 1;
 		int second = 1;
 		int nth = 1;
-
 		if (n == 0) {
 			return 0;
 		} 
 		else if (n <= 2) {
 			return 1;
 		}
-
 		for (int i = 3; i <= n; i++) {
 			nth = first + second;
 			first = second;
