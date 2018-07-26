@@ -51,7 +51,7 @@ public static void checkForDuplicatesWithIteration(int myArray[])
 	{
 		for(int j = i + 1; j < myArray.length; j++)
 		{
-			if(myArray[i] == myArray[j] && i != j)
+			if(myArray[i] == myArray[j])
 			{
 				System.out.println("Two Iterative Loops: " + myArray[j] + " is a duplicate");
 			} 
