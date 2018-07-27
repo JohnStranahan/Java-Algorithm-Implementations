@@ -1,1 +1,100 @@
 
+public class Driver {
+
+	public static void main(String[] args) {
+
+		LinkedList myList = new LinkedList();
+		myList.appendToEnd(new Node("A"));
+		myList.appendToEnd(new Node("B"));
+		Node cycle = new Node("C");
+		myList.appendToEnd(cycle);
+		myList.appendToEnd(new Node("D"));
+		myList.appendToEnd(new Node("E"));
+		myList.appendToEnd(cycle);
+		System.out.println(myList.isCyclic());
+		
+		///////////////////////////////////////
+		
+		LinkedList myList2 = new LinkedList();
+		myList2.appendToEnd(new Node("A"));
+		myList2.appendToEnd(new Node("B"));
+		myList2.appendToEnd(new Node("C"));
+		myList2.appendToEnd(new Node("D"));
+		myList2.appendToEnd(new Node("E"));
+		System.out.println(myList2.isCyclic());
+		
+	} // end main()
+
+} // end Driver
+
+
+public class LinkedList {
+
+	public Node head;
+
+	public LinkedList() {
+		head = new Node("head");
+
+	}
+
+	public void appendToEnd(Node node) {
+		Node current = head; // current node is set to the beginning
+
+		while (current.next != null) // if the next node is found
+		{
+			current = current.next; // current node is set to the next node
+		}
+
+		current.next = node; // if the next node is not found add the passed in node to the end
+	}
+
+	public boolean isCyclic() {
+		Node slowPtr = head;
+		Node fastPtr = head;
+
+		while (slowPtr.next != null && fastPtr.next.next != null) {
+			slowPtr = slowPtr.next;
+			fastPtr = fastPtr.next.next;
+
+			if (slowPtr == fastPtr) {
+				return true;
+			}
+
+		}
+
+		return false;
+	}
+
+}// end LinkedList class
+
+
+public class Node {
+
+	String data;
+	Node next;
+
+	public Node(String data) {
+		this.data = data;
+
+	}
+
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public Node getNext() {
+		return next;
+	}
+
+	public void setNext(Node next) {
+		this.next = next;
+	}
+
+} // end Node class
+
+
+
