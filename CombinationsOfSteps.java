@@ -16,6 +16,7 @@ public class CombinationsOfSteps{
 		
 			System.out.println("Welcome To the Step Combination Calculator");
 			System.out.println("It is only possible to take one Step or Two Steps at a time");
+			System.out.println("This will calculate how many combinations of steps are possible to take.")
 			System.out.println("Please Enter How many Steps you want to go up:");
 		
 		int input = Integer.parseInt(br.readLine());
