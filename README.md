@@ -5,7 +5,7 @@
 
 <b>FindArrayDuplicates.java</b> - Finding a duplicate in an array in the O(n^2) time and O(n) time.
 
-<b>IterativePascalsTriangel.java</b> - Tool to compute value for Pascal's triangle. Pascal's Triangle is an arithmetic list of number imagined by Blaise Pascal where each item is either 1 or the sum of the two elements above it.
+<b>IterativePascalsTriangle.java</b> - Tool to compute value for Pascal's triangle. Pascal's Triangle is an arithmetic list of number imagined by Blaise Pascal where each item is either 1 or the sum of the two elements above it.
 
 <b> Linked List Cycle Detection</b> - Custom Linked List Class to Check if the Linked List is Cyclic or Acyclic. Node and Driver supplied.
 
