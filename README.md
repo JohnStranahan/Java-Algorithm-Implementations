@@ -5,6 +5,8 @@
 
 <b>FindArrayDuplicates.java</b> - Finding a duplicate in an array in the O(n^2) time and O(n) time.
 
+<b>FormulaBinomial.java</b> - Calculator based on the Binomial Cefficient formula to solve n choose k.
+
 <b>IterativeBinomial.java</b> - A function that takes two parameters n and k and returns the value of Binomial Coefficient C(n, k).
 
 <b>IterativePascalsTriangle.java</b> - Tool to compute value for Pascal's triangle. Pascal's Triangle is an arithmetic list of number imagined by Blaise Pascal where each item is either 1 or the sum of the two elements above it.
