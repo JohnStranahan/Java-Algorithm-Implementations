@@ -42,7 +42,7 @@ public class RecursiveFactorial
 
 		System.out.println("");
 		System.out.println("FACTORIAL WITH BIGINTEGER");
-		 System.out.println("1000! = " + factorial(new BigInteger("100")));
+		 System.out.println("100! = " + factorial(new BigInteger("100")));
 		 
 
 		
