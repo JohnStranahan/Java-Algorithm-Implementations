@@ -6,3 +6,5 @@
 <b>FindArrayDuplicates.java</b> - Finding a duplicate in an array in the O(n^2) time and O(n) time.
 
 <b> Linked List Cycle Detection</b> - Custom Linked List Class to Check if the Linked List is Cyclic or Acyclic. Node and Driver supplied.
+
+<b>RecursiveTowersOfHanoi.java</b> - Solver Function and Driver to Solve Recursive Towers of Hanoi Puzzle.
